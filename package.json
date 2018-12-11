@@ -1,0 +1,27 @@
+{
+  "name": "amillionads",
+  "version": "1.0.0",
+  "description": "Back end tech test Prime number calculator",
+  "main": "main.ts",
+  "scripts": {
+    "test": "npm run lint && karma start",
+    "lint": "tslint --format stylish --project tsconfig.json"
+  },
+  "author": "Leander Vanderbijl",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.3.1",
+    "@types/karma": "^3.0.1",
+    "jasmine": "^3.3.0",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.0",
+    "karma-spec-reporter": "0.0.32",
+    "karma-typescript": "^3.0.13",
+    "ts-lint": "^4.5.1",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {}
+}
